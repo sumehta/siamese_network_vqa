@@ -4,7 +4,7 @@ A siamese network based architecture for binary(Yes/No) question answering. The 
 
 - VQA model used: https://github.com/VT-vision-lab/VQA_LSTM_CNN
 - train.lua:  training script for the siamese VQA network
-- eval.lua: Evaluation script from the trained model
+- eval.lua: evaluation script for the trained model
 - Youtube video link: https://www.youtube.com/watch?v=nR2s0T426PA
 
 
