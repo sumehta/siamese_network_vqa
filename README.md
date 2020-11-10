@@ -1,6 +1,6 @@
 **Siamese Network for Binary Visual Question Answering**
 
-A siamese network based architecture for binary(Yes/No) visual question answering (VQA). The basic idea is to have two networks that share parameters. One network learns to answer 'yes'-type questions (by minimizng the corresponding loss) while the other network learns to answer the 'no'-type questions by minimizing its corresponding loss. We use a contrasitive loss to backpropogate errors through the whole network.
+A siamese network based architecture for binary(Yes/No) visual question answering (VQA). The basic idea is to have two networks that share parameters. One network learns to answer 'yes'-type questions (by minimizng the corresponding loss) while the other network learns to answer the 'no'-type questions by minimizing its corresponding loss. We use a contrasitive loss to learn fine-grained differences between negative pairs in the data.
 For background and details on the binary VQA task please refer to this [paper](https://arxiv.org/abs/1511.05099).
 
 - VQA model used: https://github.com/VT-vision-lab/VQA_LSTM_CNN
