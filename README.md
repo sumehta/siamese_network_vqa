@@ -3,6 +3,7 @@
 **Introduction**
 
 Binary Visual Question Answering is the task of visual verification of concepts in the image. Concepts are represented by <P, R, S> tuples, if the concept is present then the answer is yes if the concept is absent the answer is no. Here P is the primary object, R is a relation and S is a secondary concept.
+
 Example:  <cat, in, room>
 
 **Model**
